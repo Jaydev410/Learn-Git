@@ -1,16 +1,16 @@
 # Learn about git and github
 
-git init
-git branch
-git branch -d branch_name
-git branch -M new_branch_name
-git status
-git add file_name
-git add .
-git commit -m "Message to show"
-git commit -am "Message to show"
-git remote origin github_email
-git remote -v
-git push origin main/master
-git push -u origin
-git push
+git init  -- For Initialize Directory,
+git branch -- For Identify current branch,
+git branch -d branch_name -- For deleting specific branch,
+git branch -M new_branch_name -- For renaming main/master branch,
+git status -- For seeing current state and staging area,
+git add file_name -- For adding file to staging area,
+git add .  -- For adding all files  at once in staging area,
+git commit -m "Message to show"  -- For commit file,
+git commit -am "Message to show"  -- For adding and commiting file same time,
+git remote origin github_email  -- For set remote origin,
+git remote -v  -- For checking current remote url,
+git push origin main/master  -- For pushing file in origin,
+git push -u origin  -- For pushing all files automatically in origin,
+git push  -- For push all files that have been modified,
